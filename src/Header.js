@@ -1,5 +1,3 @@
-import React from "react";
-
 const Header = ({ title }) => {
   return (
     <div>
@@ -9,7 +7,7 @@ const Header = ({ title }) => {
 };
 
 Header.defaultProps = {
-    title: "Products"
-}
+  title: "Products",
+};
 
 export default Header;
